@@ -46,4 +46,4 @@ To deploy to GitHub Pages:
 mkdocs gh-deploy
 ```
 
-(You'll need to have the repository configured properly for this to work.)
+When you do this, a new `gh-deploy` branch should be set up (you will never need to touch this manually), and your repository should be configured correctly to initialise it at `<my-username>.github.io/<my-repository-name>`. You can check this by going to `Settings > Pages`: you should see that the site is set up to `Deploy from a branch`, and that branch is `gh-pages`. 
